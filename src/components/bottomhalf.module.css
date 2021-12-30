@@ -1,0 +1,73 @@
+.bottom {
+	background-color: hsl(235, 46%, 20%);
+	color: white;
+	border-radius: inherit;
+	position: relative;
+	top: -2em;
+	left: -0.05em;
+	width: 100.5%;
+	margin: 0 auto;
+	padding: 1em 2em;
+	margin-bottom: -2em;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+		"title img"
+		"time previous";
+	align-items: center;
+	gap: 0em;
+	cursor: pointer;
+}
+
+.bottom:hover {
+	background-color: hsl(235, 46%, 30%);
+}
+
+.bottom__title {
+	grid-area: title;
+	font-weight: 500;
+}
+
+.bottom__time {
+	grid-area: time;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.bottom__img {
+	grid-area: img;
+	justify-self: end;
+}
+
+.bottom_img:hover .bottom {
+	background-color: hsl(235, 46%, 20%);
+}
+
+.bottom__previous {
+	font-size: 14px;
+	grid-area: previous;
+	justify-self: end;
+	color: hsl(236, 100%, 87%);
+}
+
+@media (min-width: 70em) {
+	.bottom {
+		grid-template-areas:
+			"title img"
+			"time time"
+			"previous previous";
+		padding: 1em 1.25em;
+		height: 9em;
+	}
+
+	.bottom__time {
+		font-size: 2.2em;
+	}
+
+	.bottom__previous {
+		justify-self: start;
+		font-size: 12px;
+	}
+}

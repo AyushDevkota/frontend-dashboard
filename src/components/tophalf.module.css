@@ -1,0 +1,14 @@
+.top {
+	height: 4em;
+	border-radius: 12px 12px 0px 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.top__img {
+	height: 3.5em;
+	position: absolute;
+	bottom: 1em;
+	right: 0;
+	margin-right: 1em;
+}
