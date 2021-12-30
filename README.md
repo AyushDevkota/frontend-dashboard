@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/react-Rwk0-f76n)
-- Live Site URL: [Add live site URL here](https://ayush-frontend-dashboard.netlify.app/)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/react-Rwk0-f76n)
+- Live Site URL: [Live URL](https://ayush-frontend-dashboard.netlify.app/)
 
 ## My process
 
